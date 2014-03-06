@@ -1,0 +1,39 @@
+.snippet {
+    width: 100%;
+    border: 1px solid #c3c3c3;
+
+    .attachment {
+        background-color: #f3f3f3;
+        padding: 15px;
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+
+        .upload-icon {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            font-size: 52pt;
+            color: rgba(0,0,0,0.5);
+        }
+
+        input[type="file"] {
+            background-color: rgba(0,0,0,0.05);
+            padding: 10px;
+        }
+    }
+
+    .message {
+        display: inline-block;
+        vertical-align: top;
+        width: 55%;
+
+        textarea {
+            padding: 10px;
+            width: 100%;
+            min-height: 134px;
+            font-size: 12pt;
+            border: none;
+        }
+    }
+}

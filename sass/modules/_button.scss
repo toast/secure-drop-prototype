@@ -1,0 +1,39 @@
+button, a.btn {
+    background: #7985aa;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+button:hover, a.btn:hover {
+    background: white;
+    color: #7985aa;
+    border: 1px solid #7985aa;
+}
+button.alt, a.btn.alt {
+    background: transparent;
+    border: 1px solid white;
+}
+button.alt:hover, a.btn.alt:hover {
+    background: white;
+    color: #7985aa;
+}
+button.block, a.btn.block {
+    text-decoration: none;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+button.small, a.btn.small {
+    font-size: small;
+    padding: 5px 10px;
+}
+
+.btn.primary {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
